@@ -46,7 +46,7 @@ REG NO: 212223240058
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
-img =cv2.imread('Eagle_in_Flight.jpg',cv2.IMREAD_COLOR)
+img =cv2.imread('Eagle_in_Flight.jpg',cv2.IMREAD_GRAYSCALE)
 img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 ```
 
